@@ -1,0 +1,84 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="UserInterface\Images\AdminBackground.jpg" />
+    <None Remove="UserInterface\Images\Calendar.jpg" />
+    <None Remove="UserInterface\Images\CalendarBackGround.jpg" />
+    <None Remove="UserInterface\Images\ContactAdmin.jpg" />
+    <None Remove="UserInterface\Images\ghast-egg.png" />
+    <None Remove="UserInterface\Images\GymNews1.jpg" />
+    <None Remove="UserInterface\Images\GymNews2.jpg" />
+    <None Remove="UserInterface\Images\GymNews3.jpg" />
+    <None Remove="UserInterface\Images\GymNews4.jpg" />
+    <None Remove="UserInterface\Images\LostPassword.jpg" />
+    <None Remove="UserInterface\Images\MainUIBackground.jpg" />
+    <None Remove="UserInterface\Images\MainWindow.jpg" />
+    <None Remove="UserInterface\Images\PersonalSettings.jpg" />
+    <None Remove="UserInterface\Images\pigg-egg.png" />
+    <None Remove="UserInterface\Images\Register.jpg" />
+    <None Remove="UserInterface\Images\Shop.jpg" />
+    <None Remove="UserInterface\Images\Trainer1.jpg" />
+    <None Remove="UserInterface\Images\Trainer2.jpg" />
+    <None Remove="UserInterface\Images\Trainer3.jpg" />
+    <None Remove="UserInterface\Images\Trainer4.jpg" />
+    <None Remove="UserInterface\Images\Trainer5.jpg" />
+    <None Remove="UserInterface\Images\Trainer6.jpg" />
+    <None Remove="UserInterface\Images\Trainer7.jpg" />
+    <None Remove="UserInterface\Images\wither-egg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="UserInterface\Images\AdminBackground.jpg" />
+    <Resource Include="UserInterface\Images\Calendar.jpg" />
+    <Resource Include="UserInterface\Images\CalendarBackGround.jpg" />
+    <Resource Include="UserInterface\Images\ContactAdmin.jpg" />
+    <Resource Include="UserInterface\Images\ghast-egg.png" />
+    <Resource Include="UserInterface\Images\GymNews1.jpg" />
+    <Resource Include="UserInterface\Images\GymNews2.jpg" />
+    <Resource Include="UserInterface\Images\GymNews3.jpg" />
+    <Resource Include="UserInterface\Images\GymNews4.jpg" />
+    <Resource Include="UserInterface\Images\LostPassword.jpg" />
+    <Resource Include="UserInterface\Images\MainUIBackground.jpg" />
+    <Resource Include="UserInterface\Images\MainWindow.jpg" />
+    <Resource Include="UserInterface\Images\PersonalSettings.jpg" />
+    <Resource Include="UserInterface\Images\pigg-egg.png" />
+    <Resource Include="UserInterface\Images\Register.jpg" />
+    <Resource Include="UserInterface\Images\Shop.jpg" />
+    <Resource Include="UserInterface\Images\Trainer1.jpg" />
+    <Resource Include="UserInterface\Images\Trainer2.jpg" />
+    <Resource Include="UserInterface\Images\Trainer3.jpg" />
+    <Resource Include="UserInterface\Images\Trainer4.jpg" />
+    <Resource Include="UserInterface\Images\Trainer5.jpg" />
+    <Resource Include="UserInterface\Images\Trainer6.jpg" />
+    <Resource Include="UserInterface\Images\Trainer7.jpg" />
+    <Resource Include="UserInterface\Images\wither-egg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>
