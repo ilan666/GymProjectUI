@@ -231,7 +231,7 @@
         </StackPanel>
 
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Omnis\source\repos\GymProjectUI\GymProjectUI\UserInterface\Images\MainWindow.jpg" Opacity="0.5" />
+            <ImageBrush ImageSource="/UserInterface/Images/MainWindow.jpg" Opacity="0.5" />
 
 
 
